@@ -1,0 +1,1153 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Almarai&family=Arima+Madurai&family=Calistoga&family=Fjalla+One&family=Lato&family=Nunito&family=Outfit&family=Poppins&display=swap');
+
+
+body, html{
+font-family: 'Poppins', sans-serif;
+}
+
+
+/*HEADER*/
+
+#header{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+    padding-bottom: 60px;
+}
+
+#header .navbar-collapse{
+    width: auto;
+}
+
+#header .nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #004475;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 12px;
+    line-height: 10px;
+}
+
+@media (max-width: 991.98px) {
+    #header .nav-link{
+        width: 100%;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        color: #004475;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    #header .nav-link:hover{
+        box-shadow: inset 200px 0 0 0 #54b3d6;
+        color: white;
+    }
+}
+
+@media (max-width: 991.98px){
+    #header .navbar-collapse{
+        width: 100%;
+    }
+}
+
+/*//HEADER*/
+
+/*SECTION1*/
+
+#section1{
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+#section1 h2{
+    font-size: 40px;
+    line-height: 5px;
+    font-family: 'Abril Fatface', cursive;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#section1 h4{
+    line-height: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #004CAB;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+p{
+    line-height: 23px;
+    font-family: 'Almarai', sans-serif;
+    color: #000000;
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+@media (min-width: 992px) {
+#section1 h2{
+    font-size: 65px;
+    line-height: 65px;
+    max-width: 380px;
+    font-family: 'Abril Fatface', cursive;
+    color: #000000;
+    margin-left: -255px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+#section1 h4{
+    line-height: 20px;
+    max-width: 450px;
+    font-family: 'Nunito', sans-serif;
+    color: #004CAB;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 10px;
+    margin-left: -255px;
+}
+
+p{
+    line-height: 23px;
+    max-width: 500px;
+    font-family: 'Almarai', sans-serif;
+    color: #000000;
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: -255px;
+}
+}
+
+@media (max-width: 991.98px) {
+    #img-inicial{
+        width: 80%;
+    }
+}
+
+/*//SECTION1*/
+
+
+/*SECTION2*/
+
+#section2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.cover {
+    width: 100%;
+    height: 48vmin;
+    background: url("../imagens/panorama.jpg");
+    background-position: -60rem -17rem;
+    position: relative;
+  }
+
+  @media (min-width: 992px) {
+    .cover {
+        background-size: 150%;
+        background-position: -24rem -19rem;
+    }
+    .cover .content > h1 {
+        font-size: 47px;
+      }
+  }
+  
+
+  .cover .content {
+    width: 100%;
+    height: 100%;
+    padding-top: 19vmin;
+  }
+  
+  .cover h1 {
+    font-family: 'Calistoga', cursive;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  
+  .resumo .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(201, 42, 42, 0.801);
+  }
+  
+  .resumo {
+    margin-top: -15vmin;
+  }
+  
+  .resumo .rect h1 {
+    font-size: 28px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 7px;
+  }
+
+  .resumo .rect h1 mark{
+    background-color: #ff000028;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    margin: 0 -2rem;
+    padding: 0 2rem;
+  }
+  
+  .resumo .rect .tipo{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin-top: -6px;
+  }
+#icones{
+    font-size: 45px;
+    color: #812E2E;
+}
+
+
+/*//SECTION2*/
+
+
+/*SECTION 3*/
+
+#section3{
+    padding-top: 90px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+    #section3 .container2{
+        display: flex;
+    }
+}
+
+.rectangle-box{
+    background-color: #FFC489;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    .rectangle-box{
+        margin-left: 500px;
+        border-radius: 49px 0px 0px 49px;
+    }
+    .texto_section3 h2{
+        margin-left: 60px;
+        font-size: 45px;
+    }
+    #img_section3{
+        width: 500px;
+        height: 333px;
+        border-radius: 30px;
+        margin-left: 50px;
+        margin-top: 95px;
+        position: absolute;
+    }
+}
+
+.texto_section3 h2{
+    font-family: 'Calistoga', cursive;
+    color: #700D0D;
+    font-size: 35px;
+}
+
+@media (max-width: 991.98px) {
+    #section3 .texto_section3 .texto_retangulo{
+        margin-left: 10px;
+    }
+}
+
+
+.texto_section3 .texto_retangulo{
+    margin-left: 100px;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+
+/*//SECTION 3*/
+
+/*SECTION 4*/
+#section4{
+    padding-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+
+#section4 h2{
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 991.98px) {
+        #section4 h2{
+            font-size: 27px;
+        }
+}
+
+
+#section4 h2 .mark-competencia{
+    background-color: #3E0000;
+    color: #B98B5C;
+    border-radius: 8px 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+
+#section4 .texto2{
+    padding-top: 24px;
+}
+
+.texto_section4{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.competencias{
+    color: #B98B5C;
+}
+
+.competencias span{
+    color: #000000;
+}
+
+.img_section4{
+    display: flex;
+    justify-content: center;
+}
+
+#section4 #img_competencias{
+    width: 800px;
+    height: auto;
+}
+/*//SECTION 4*/
+
+
+/*SECTION 5*/
+
+#section5{
+    padding-bottom: 30px;
+}
+@media (max-width: 991.98px) {
+    #section5 .carousel-item img{
+        height: 250px;
+    }
+}
+
+.carousel-item img{
+    height: 530px;
+    width: 400px;
+    background-size: cover;
+}
+
+/*//SECTION 5*/
+
+
+/*SECTION 6*/
+
+#section6{
+    padding-top: 100px;
+    padding-bottom: 35px;
+}
+
+
+.texto_section6{
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+#section6 h2{
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 991.98px) {
+        #section6 h2{
+            font-size: 35px;
+        }
+}
+
+
+#section6 h2 .mark-cursar{
+    background-color: #A46464;
+    color: #ffffff;
+    border-radius: 8px 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+
+#section6 .row .col .card{
+    width: 180px;
+    height: 300px;
+    margin: 5px;
+}
+
+.card{
+    border: 1px solid #ccc;
+}
+
+.card:hover{
+    border: 1px solid #777;
+}
+
+#section6 .card img{
+    width: 165px;
+    height: auto;
+}
+
+#section6 .card{
+    top: 12px;
+}
+
+.card a{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title a{
+    text-decoration: none;
+    color: #8B0054;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-title a:hover{
+    color: #8B0054;
+}
+
+/*//SECTION 6*/
+
+
+/*SECTION 7*/
+
+#section7{
+    background-color: #DEB887;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 95px;
+    padding-top: 75px;
+}
+#section7 h2{
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 55px;
+    margin-left: 10px;
+    color: #552100;
+}
+
+@media (max-width: 991.98px) {
+        #section7 h2{
+            font-size: 40px;
+        }
+}
+
+@media (min-width: 992px) {
+    #section7 .container3{
+        display: flex;
+    }
+}
+
+.grade{
+    color: #814911;
+}
+
+.grade span{
+    color: #000000;
+}
+
+#section7 .texto_section7{
+    color: #000000;
+    font-family: "poppins", sans-serif;
+    margin-left: 10px;
+    margin-top: -16px;
+}
+
+@media (min-width: 992px) {
+    #img_section7{
+        width: 500px;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+}
+
+.botao{
+    margin-left: 20px;
+}
+
+#section7 .botao button{
+    background-color: #D09D6B;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #490000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@keyframes anima-botao {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+#section7 .botao button:hover{
+    animation-name: anima-botao;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+/*//SECTION 7*/
+
+
+/*SECTION 8*/
+
+#section8{
+    padding-top: 90px;
+    margin-top: 10px;
+}
+
+#section8 h2{
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 991.98px) {
+        #section8 h2{
+            font-size: 35px;
+        }
+}
+
+
+#section8 h2 .mark-pos-graduacao{
+    background-color: #A46464;
+    color: #ffffff;
+    border-radius: 8px 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+
+#section8 .texto4{
+    padding-top: 24px;
+}
+
+@media (min-width: 992px) {
+    #section8 .texto5{
+        margin-top: -60px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #section8 .texto5{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    #section8 .container4{
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    #img_section8{
+        width: 400px;
+        height: auto;
+        margin-top: -20px;
+        margin-left: 35px;
+    }
+}
+
+.graduacao{
+    color: #B98B5C;
+}
+
+.graduacao span{
+    color: #000000;
+}
+
+.graduacao .clique a{
+    color: #960048;
+    text-decoration: none;
+}
+
+
+/*//SECTION 8/
+
+/*SECTION 9*/
+
+#section9{
+    background-color: #D2B48C;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+
+#section9 h2{
+    padding-top: 30px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 55px;
+    margin-left: 10px;
+    color: #552100;
+}
+
+.texto_section4 .texto6{
+    margin-top: -15px;
+}
+
+.mercado{
+    color: #A46464;;
+}
+
+.mercado span{
+    color: #000000;
+}
+
+
+@media (max-width: 991.98px) {
+        #section9 h2{
+            font-size: 40px;
+        }
+}
+
+
+@media (min-width: 992px) {
+    #section9 .container5{
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    #img_section9{
+        width: 280px;
+        height: 190px;
+    }
+    .mercado-texto-img {
+        margin-left: 240px;
+        margin-right: 20px;
+    }
+}
+
+.mercado-texto-img2{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.mercado-texto-img {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#img2_section9{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 991.98px) {
+    .texto7{
+        margin-top: 15px;
+    }
+}
+
+
+/*//SECTION 9*/
+
+
+/*SECTION 10*/
+
+#section10{
+    margin-top: 50px;
+    padding-bottom: 45px;
+}
+
+#section10 h2{
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 991.98px) {
+        #section10 h2{
+            font-size: 37px;
+        }
+}
+
+#section10 h2 .mark-empregabilidade{
+    background-color: #3E0000;
+    color: #B98B5C;
+    border-radius: 8px 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+.texto_section10{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin-left: 10px;
+    margin-top: 24px;
+}
+
+.botao2{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#section10 .botao2 button{
+    background-color: #AF8D5E;
+    padding: 10px 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: #3E0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+@keyframes anima-botao {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+#section10 .botao2 button:hover{
+    animation-name: anima-botao;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.img_section10{
+    display: flex;
+    justify-content: center;
+}
+
+#img_empregabilidade{
+    width: 550px;
+    height: auto;
+    margin-top: 25px;
+}
+
+/*//SECTION 10*/
+
+
+/*SECTION 11*/
+#section11{
+    background-color: #FFDBB7;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+#section11 h2{
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 55px;
+    margin-left: 10px;
+    color: #860018;
+}
+
+@media (max-width: 991.98px) {
+        #section11 h2{
+            font-size: 40px;
+        }
+}
+
+.texto_section11{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.img_section11{
+    display: flex;
+    justify-content: center;
+}
+
+#img_estagio{
+    margin-top: 35px;
+}
+/*//SECTION 11*/
+
+/*SECTION 12*/
+#section12{
+    padding-bottom: 55px;
+}
+
+.container6{
+    justify-content: center;
+}
+
+@media (min-width: 992px){
+    #section12{
+        margin-left: 190px;
+        margin-right: 190px;
+    }
+}
+
+@media (min-width: 992px) {
+    #section12 .container6{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#section12 h2{
+    padding-top: 45px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 55px;
+    margin-left: 10px;
+    color: #552100;
+}
+
+@media (max-width: 991.98px) {
+        #section12 h2{
+            font-size: 40px;
+        }
+}
+
+.texto8{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.texto8 h4{
+    font-family: 'Calistoga', cursive;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+@media (min-width: 992px) {
+    #img_atuacao{
+        width: 400px;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .texto8{
+        max-width: 500px;
+    }
+}
+
+/*//SECTION 12*/
+
+
+/*SECTION 13*/
+
+#section13 {
+    background-color: #DEB887;
+    padding-bottom: 40px;
+}
+
+#section13 h2{
+    padding-top: 45px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 55px;
+    margin-left: 10px;
+    color: #552100;
+}
+
+@media (max-width: 991.98px) {
+        #section13 h2{
+            font-size: 40px;
+        }
+}
+
+.texto_section13{
+    margin-top: -15px;
+}
+
+.texto9{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.texto9 h4{
+    font-family: 'Calistoga', cursive;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+#table-section13{
+    width: 400px;
+    margin-top: 20px;
+}
+
+@media (max-width: 991.98px) {
+    #table-section13{
+        margin-left: 10px;
+    }
+}
+
+thead{
+    background-color: #860018;
+    color: #ffffff;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+tbody tr td .cinza{
+    background-color: #c0c0c0;
+}
+
+.containertable1{
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    #section13 .containertable1{
+        display: flex;
+        justify-content: center;
+    }
+}
+/*//SECTION 13*/
+
+/*SECTION 14*/
+
+#section14{
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+
+#section14 h2{
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 991.98px) {
+        #section14 h2{
+            font-size: 35px;
+        }
+}
+
+
+#section14 h2 .mark-empregabilidade{
+    background-color: #A46464;
+    color: #ffffff;
+    border-radius: 8px 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+
+#section14 .row .col .card{
+    position: relative;
+    width: 300px;
+    height: 430px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    overflow: hidden;
+    transform: 0.5s;
+    text-align: center;
+    top: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+#section14 .row .col .card img{
+    transition: 0.5s;
+}
+
+#section14 .row .col .card .texto10{
+    padding: 20px;
+    text-align: center;
+}
+
+#section14 .row .col .card .texto10{
+    color: #666;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+#section14 .row .col .card:hover{
+    background-color: #f56494;
+    color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 2px 20px 25px #f56494;
+    border-color: #f56494;
+    transition: 0.3s;
+}
+
+#section14 .row .col .card:hover .texto10{
+    color: #ffffff;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.acordeao{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 45px;
+}
+
+.titulo{
+    font-family: "poppins", sans-serif;
+}
+
+.texto_acordeao{
+    font-family: "poppins", sans-serif;
+}
+
+/*//SECTION 14*/
+
+
+/*SECTION 15*/
+
+#section15 {
+    background-color: #D2B48C;
+    padding-bottom: 65px;
+}
+
+#section15 h2{
+    padding-top: 45px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    font-size: 55px;
+    color: #700D0D;
+}
+
+@media (max-width: 991.98px) {
+        #section15 h2{
+            font-size: 28px;
+        }
+}
+
+.box{
+    background-color: #D7D7D7;
+    width: 400px;
+    height: 300px;
+    border-radius: 41px;
+    margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+    .box{
+        width: 650px;
+        height: 400px;
+    }
+}
+
+.container8{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*//SECTION 15*/
+
+
+/*SECTION 16*/
+footer{
+    font-family: "poppins", sans-serif;
+    color: #000000;
+    background: linear-gradient(to right, #ce9f78, #b67642, #834821)
+}
+
+footer h5{
+    font-family: 'Calistoga', cursive;
+    font-size: 18px;
+}
+
+footer i{
+    margin-top: 5px;
+    font-size: 2em;
+    color: #773a1e;
+    margin-left: 5px;
+}
+
+
+footer i:hover{
+    color: #58250d;
+    /*color: #002a47;*/
+}
+
+/*//SECTION 16*/
