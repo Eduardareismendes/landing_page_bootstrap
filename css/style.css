@@ -372,7 +372,7 @@ p{
 
 #section6{
     padding-top: 100px;
-    padding-bottom: 35px;
+    padding-bottom: 85px;
 }
 
 
@@ -626,8 +626,9 @@ p{
 
 #section9{
     background-color: #D2B48C;
-    padding-bottom: 40px;
-    margin-top: 60px;
+    padding-bottom: 70px;
+    margin-top: 80px;
+    padding-top: 70px;
 }
 
 #section9 h2{
@@ -710,8 +711,8 @@ p{
 /*SECTION 10*/
 
 #section10{
-    margin-top: 50px;
-    padding-bottom: 45px;
+    padding-bottom: 65px;
+    padding-top: 90px;
 }
 
 #section10 h2{
@@ -799,8 +800,8 @@ p{
     background-color: #FFDBB7;
     margin-top: 32px;
     margin-bottom: 30px;
-    padding-bottom: 80px;
-    padding-top: 10px;
+    padding-bottom: 120px;
+    padding-top: 80px;
 }
 #section11 h2{
     padding-top: 20px;
@@ -835,7 +836,8 @@ p{
 
 /*SECTION 12*/
 #section12{
-    padding-bottom: 55px;
+    padding-top: 70px;
+    padding-bottom: 130px;
 }
 
 .container6{
@@ -905,7 +907,8 @@ p{
 
 #section13 {
     background-color: #DEB887;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 #section13 h2{
@@ -977,8 +980,8 @@ tbody tr td .cinza{
 /*SECTION 14*/
 
 #section14{
-    padding-top: 40px;
-    padding-bottom: 55px;
+    padding-top: 90px;
+    padding-bottom: 80px;
 }
 
 
@@ -1084,7 +1087,8 @@ tbody tr td .cinza{
 
 #section15 {
     background-color: #D2B48C;
-    padding-bottom: 65px;
+    padding-bottom: 145px;
+    padding-top: 55px;
 }
 
 #section15 h2{
