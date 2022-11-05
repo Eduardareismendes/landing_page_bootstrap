@@ -380,6 +380,7 @@ body, html{
 #section6{
     padding-top: 100px;
     padding-bottom: 85px;
+    margin-left: 10px;
 }
 
 
@@ -1107,39 +1108,47 @@ tbody tr td .cinza{
 }
 
 #section15 h2{
-    padding-top: 45px;
     font-family: 'Arima Madurai', cursive;
     font-weight: 600;
     font-size: 55px;
-    color: #700D0D;
+    color: #552100;
+    margin-left: 16px;
+    margin-top: 25px;
 }
 
-@media (max-width: 991.98px) {
-        #section15 h2{
-            font-size: 28px;
-        }
+
+#vid{
+    border-radius: 10px;
 }
 
-.box{
-    background-color: #D7D7D7;
-    width: 400px;
-    height: 300px;
-    border-radius: 41px;
-    margin-top: 30px;
+.embed{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
 }
 
-@media (min-width: 992px) {
-    .box{
-        width: 650px;
-        height: 400px;
-    }
+.embed iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
 }
 
-.container8{
-    display: flex;
-    justify-content: center;
+#entre{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    color: #000000;
 }
 
+#descricao{
+    margin-top: -30px;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'poppins', sans-serif;
+    color: #000000;
+}
 
 /*//SECTION 15*/
 
