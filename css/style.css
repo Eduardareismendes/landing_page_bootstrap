@@ -1198,20 +1198,33 @@ footer i:hover{
 
 @media (max-width: 991.98px) {
     #section17{
-        height: 780px;
+        height: 870px;
         margin-top: -200px;
         padding-top: 160px;
         display: flex;
         flex-direction: column;
     }
+    .img{
+        width: 250px;
+        height: auto;
+    }
+    .img_not img{
+        width: 245px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-right: 5px;
+    }
+
 }
+
+
 
 .titulo_not{
     font-family: 'Arima Madurai', cursive;
     font-weight: 600;
     font-size: 55px;
     color: #552100;
-    margin-left: 16px;
     margin-top: -20px;
     margin-bottom: 20px;
     display: flex;
@@ -1238,6 +1251,7 @@ footer i:hover{
     margin-bottom: 2px;
     color: #000000;
     text-decoration: none;
+    margin-top: 2px;
 }
 
 .texto_titulo2_not{
