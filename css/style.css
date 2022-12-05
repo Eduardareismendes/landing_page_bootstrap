@@ -1210,6 +1210,7 @@ footer i:hover{
     }
     .img img{
          margin-top: 10px;
+         padding-top: 10px;
     }
     .img_not img{
         width: 245px;
