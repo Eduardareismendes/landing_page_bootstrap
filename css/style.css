@@ -1198,7 +1198,7 @@ footer i:hover{
 
 @media (max-width: 991.98px) {
     #section17{
-        height: 740px;
+        height: 800px;
         margin-top: -150px;
         padding-top: 160px;
         display: flex;
@@ -1207,7 +1207,9 @@ footer i:hover{
     .img{
         width: 280px;
         height: auto;
-        margin-top: 5px;
+    }
+    .img img{
+         margin-top: 10px;
     }
     .img_not img{
         width: 245px;
