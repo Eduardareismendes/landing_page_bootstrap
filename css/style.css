@@ -1207,6 +1207,7 @@ footer i:hover{
     .img{
         width: 280px;
         height: auto;
+        margin-top: 5px;
     }
     .img_not img{
         width: 245px;
